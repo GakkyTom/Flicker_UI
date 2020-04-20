@@ -7,14 +7,19 @@
 //
 
 import UIKit
+import Parse
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let testObject = PFObject(className: "Testing")
+        // Column.. "foo"
+        // Param... "bar"
+        testObject["foo"] = "bar"
+        testObject.saveInBackground { (success, error) in
+            print("object has been saved")
+        }
     }
-
-
 }
-

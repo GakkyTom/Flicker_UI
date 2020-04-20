@@ -1,0 +1,6 @@
+framework module Pods_tinderMock {
+  umbrella header "Pods-tinderMock-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0ACF7FEFAA8B1173CCF090A5 /* Pods_tinderMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54987386F7D004DF42105788 /* Pods_tinderMock.framework */; };
+		10664DAFA141FE052F40B9E4 /* Pods_tinderMockTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12C6BB04AACC7C0F047AE833 /* Pods_tinderMockTests.framework */; };
 		5CE1F167244DD2C800E4264F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE1F166244DD2C800E4264F /* AppDelegate.swift */; };
 		5CE1F169244DD2C800E4264F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE1F168244DD2C800E4264F /* SceneDelegate.swift */; };
 		5CE1F16B244DD2C800E4264F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE1F16A244DD2C800E4264F /* ViewController.swift */; };
@@ -15,6 +17,7 @@
 		5CE1F173244DD2CB00E4264F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE1F171244DD2CB00E4264F /* LaunchScreen.storyboard */; };
 		5CE1F17E244DD2CB00E4264F /* tinderMockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE1F17D244DD2CB00E4264F /* tinderMockTests.swift */; };
 		5CE1F189244DD2CB00E4264F /* tinderMockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE1F188244DD2CB00E4264F /* tinderMockUITests.swift */; };
+		D46A4E31D08417387DAD642D /* Pods_tinderMock_tinderMockUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D72AF366A77B8D9721E438 /* Pods_tinderMock_tinderMockUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12C6BB04AACC7C0F047AE833 /* Pods_tinderMockTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tinderMockTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15D5C3F101B6C3403FFAE481 /* Pods-tinderMock-tinderMockUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tinderMock-tinderMockUITests.release.xcconfig"; path = "Target Support Files/Pods-tinderMock-tinderMockUITests/Pods-tinderMock-tinderMockUITests.release.xcconfig"; sourceTree = "<group>"; };
+		15D72AF366A77B8D9721E438 /* Pods_tinderMock_tinderMockUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tinderMock_tinderMockUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AE23B4D58586A5B8EF5FFA0 /* Pods-tinderMockTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tinderMockTests.debug.xcconfig"; path = "Target Support Files/Pods-tinderMockTests/Pods-tinderMockTests.debug.xcconfig"; sourceTree = "<group>"; };
+		54987386F7D004DF42105788 /* Pods_tinderMock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tinderMock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CE1F163244DD2C800E4264F /* tinderMock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tinderMock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CE1F166244DD2C800E4264F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CE1F168244DD2C800E4264F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		5CE1F184244DD2CB00E4264F /* tinderMockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tinderMockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CE1F188244DD2CB00E4264F /* tinderMockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tinderMockUITests.swift; sourceTree = "<group>"; };
 		5CE1F18A244DD2CB00E4264F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		739441186BF6A9F4DE66AB7D /* Pods-tinderMock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tinderMock.release.xcconfig"; path = "Target Support Files/Pods-tinderMock/Pods-tinderMock.release.xcconfig"; sourceTree = "<group>"; };
+		87A7215B63FF8E057E673F40 /* Pods-tinderMock-tinderMockUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tinderMock-tinderMockUITests.debug.xcconfig"; path = "Target Support Files/Pods-tinderMock-tinderMockUITests/Pods-tinderMock-tinderMockUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C566E986872A001EE3D8CFBF /* Pods-tinderMock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tinderMock.debug.xcconfig"; path = "Target Support Files/Pods-tinderMock/Pods-tinderMock.debug.xcconfig"; sourceTree = "<group>"; };
+		E62DDAC47DCFE35521995B1A /* Pods-tinderMockTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tinderMockTests.release.xcconfig"; path = "Target Support Files/Pods-tinderMockTests/Pods-tinderMockTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ACF7FEFAA8B1173CCF090A5 /* Pods_tinderMock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10664DAFA141FE052F40B9E4 /* Pods_tinderMockTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D46A4E31D08417387DAD642D /* Pods_tinderMock_tinderMockUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				5CE1F17C244DD2CB00E4264F /* tinderMockTests */,
 				5CE1F187244DD2CB00E4264F /* tinderMockUITests */,
 				5CE1F164244DD2C800E4264F /* Products */,
+				C958988CDC50BE2EDE66AB54 /* Pods */,
+				F248AD46AD3797231AA58DD2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,30 @@
 			path = tinderMockUITests;
 			sourceTree = "<group>";
 		};
+		C958988CDC50BE2EDE66AB54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C566E986872A001EE3D8CFBF /* Pods-tinderMock.debug.xcconfig */,
+				739441186BF6A9F4DE66AB7D /* Pods-tinderMock.release.xcconfig */,
+				87A7215B63FF8E057E673F40 /* Pods-tinderMock-tinderMockUITests.debug.xcconfig */,
+				15D5C3F101B6C3403FFAE481 /* Pods-tinderMock-tinderMockUITests.release.xcconfig */,
+				3AE23B4D58586A5B8EF5FFA0 /* Pods-tinderMockTests.debug.xcconfig */,
+				E62DDAC47DCFE35521995B1A /* Pods-tinderMockTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F248AD46AD3797231AA58DD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54987386F7D004DF42105788 /* Pods_tinderMock.framework */,
+				15D72AF366A77B8D9721E438 /* Pods_tinderMock_tinderMockUITests.framework */,
+				12C6BB04AACC7C0F047AE833 /* Pods_tinderMockTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CE1F18D244DD2CB00E4264F /* Build configuration list for PBXNativeTarget "tinderMock" */;
 			buildPhases = (
+				41CAAB7E705217B15F3ADA21 /* [CP] Check Pods Manifest.lock */,
 				5CE1F15F244DD2C800E4264F /* Sources */,
 				5CE1F160244DD2C800E4264F /* Frameworks */,
 				5CE1F161244DD2C800E4264F /* Resources */,
+				4F392389E555FFAA0EBCD4CE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CE1F190244DD2CB00E4264F /* Build configuration list for PBXNativeTarget "tinderMockTests" */;
 			buildPhases = (
+				7F3F9525AEDD9721EE932149 /* [CP] Check Pods Manifest.lock */,
 				5CE1F175244DD2CB00E4264F /* Sources */,
 				5CE1F176244DD2CB00E4264F /* Frameworks */,
 				5CE1F177244DD2CB00E4264F /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CE1F193244DD2CB00E4264F /* Build configuration list for PBXNativeTarget "tinderMockUITests" */;
 			buildPhases = (
+				275ACBA17CC08BB675E7F58B /* [CP] Check Pods Manifest.lock */,
 				5CE1F180244DD2CB00E4264F /* Sources */,
 				5CE1F181244DD2CB00E4264F /* Frameworks */,
 				5CE1F182244DD2CB00E4264F /* Resources */,
+				7B38077513E46B66D0332362 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +299,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		275ACBA17CC08BB675E7F58B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tinderMock-tinderMockUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41CAAB7E705217B15F3ADA21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tinderMock-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F392389E555FFAA0EBCD4CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tinderMock/Pods-tinderMock-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tinderMock/Pods-tinderMock-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tinderMock/Pods-tinderMock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B38077513E46B66D0332362 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tinderMock-tinderMockUITests/Pods-tinderMock-tinderMockUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tinderMock-tinderMockUITests/Pods-tinderMock-tinderMockUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tinderMock-tinderMockUITests/Pods-tinderMock-tinderMockUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F3F9525AEDD9721EE932149 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tinderMockTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5CE1F15F244DD2C800E4264F /* Sources */ = {
@@ -432,6 +581,7 @@
 		};
 		5CE1F18E244DD2CB00E4264F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C566E986872A001EE3D8CFBF /* Pods-tinderMock.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +600,7 @@
 		};
 		5CE1F18F244DD2CB00E4264F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 739441186BF6A9F4DE66AB7D /* Pods-tinderMock.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +619,7 @@
 		};
 		5CE1F191244DD2CB00E4264F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AE23B4D58586A5B8EF5FFA0 /* Pods-tinderMockTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +642,7 @@
 		};
 		5CE1F192244DD2CB00E4264F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E62DDAC47DCFE35521995B1A /* Pods-tinderMockTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +665,7 @@
 		};
 		5CE1F194244DD2CB00E4264F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87A7215B63FF8E057E673F40 /* Pods-tinderMock-tinderMockUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +686,7 @@
 		};
 		5CE1F195244DD2CB00E4264F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15D5C3F101B6C3403FFAE481 /* Pods-tinderMock-tinderMockUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
