@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="tinderMock" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="3L8-EM-G5T">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QNv-Hz-jq6" customClass="RoundButton" customModule="tinderMock" customModuleProvider="target">
+                                <rect key="frame" x="182" y="585" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="6q8-by-eUK"/>
+                                    <constraint firstAttribute="height" constant="50" id="fgH-ZD-7yy"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="Asset 1"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="tapGoButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AFZ-vi-qHa"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cocktail Listing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pjT-QG-H6Y">
+                                <rect key="frame" x="49.5" y="94" width="315" height="60"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f8r-0a-kWo">
+                                <rect key="frame" x="88" y="289" width="238" height="86"/>
+                                <string key="text">Cocktailing with
+Your drink.</string>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="36"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v4d-bg-UHD">
+                                <rect key="frame" x="180" y="655" width="54" height="72"/>
+                                <string key="text">FIND
+YOUR
+FOOD</string>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="v4d-bg-UHD" firstAttribute="top" secondItem="QNv-Hz-jq6" secondAttribute="bottom" constant="20" id="FIz-4U-860"/>
+                            <constraint firstItem="pjT-QG-H6Y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="Hnl-Ls-ZoD"/>
+                            <constraint firstItem="QNv-Hz-jq6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VPz-JN-ybx"/>
+                            <constraint firstItem="v4d-bg-UHD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gVN-Pl-ULf"/>
+                            <constraint firstItem="3L8-EM-G5T" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="i3u-8d-i0k"/>
+                            <constraint firstItem="3L8-EM-G5T" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="jt2-KY-zmL"/>
+                            <constraint firstItem="QNv-Hz-jq6" firstAttribute="top" secondItem="f8r-0a-kWo" secondAttribute="bottom" constant="210" id="kYK-63-XcF"/>
+                            <constraint firstItem="pjT-QG-H6Y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oBr-am-lDh"/>
+                            <constraint firstItem="3L8-EM-G5T" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="uXl-ug-9pD"/>
+                            <constraint firstAttribute="bottom" secondItem="3L8-EM-G5T" secondAttribute="bottom" id="yaR-Wn-1n9"/>
+                            <constraint firstItem="f8r-0a-kWo" firstAttribute="top" secondItem="pjT-QG-H6Y" secondAttribute="bottom" constant="135" id="yxC-bY-dSy"/>
+                            <constraint firstItem="f8r-0a-kWo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zfg-0Y-x6Z"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="bgImage" destination="3L8-EM-G5T" id="a1S-Pi-OPe"/>
+                        <outlet property="descLabel" destination="f8r-0a-kWo" id="98p-K4-GrB"/>
+                        <outlet property="findLabel" destination="v4d-bg-UHD" id="5jc-5H-b4o"/>
+                        <outlet property="goButton" destination="QNv-Hz-jq6" id="jWc-fu-Efe"/>
+                        <outlet property="titleLabel" destination="pjT-QG-H6Y" id="U1N-aF-tAN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Asset 1" width="17" height="20"/>
+        <image name="bg" width="2400" height="3000"/>
+    </resources>
+</document>

@@ -3,12 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0ACF7FEFAA8B1173CCF090A5 /* Pods_tinderMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54987386F7D004DF42105788 /* Pods_tinderMock.framework */; };
 		10664DAFA141FE052F40B9E4 /* Pods_tinderMockTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12C6BB04AACC7C0F047AE833 /* Pods_tinderMockTests.framework */; };
+		5CA3CC1E245591240023A120 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA3CC1D245591240023A120 /* RoundButton.swift */; };
+		5CA3CC20245593F60023A120 /* BezierButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA3CC1F245593F60023A120 /* BezierButton.swift */; };
+		5CA3CC222455B5C20023A120 /* RateCocktailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA3CC212455B5C20023A120 /* RateCocktailVC.swift */; };
+		5CA3CC242455B6B80023A120 /* RateCocktail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA3CC232455B6B80023A120 /* RateCocktail.storyboard */; };
 		5CE1F167244DD2C800E4264F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE1F166244DD2C800E4264F /* AppDelegate.swift */; };
 		5CE1F169244DD2C800E4264F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE1F168244DD2C800E4264F /* SceneDelegate.swift */; };
 		5CE1F16B244DD2C800E4264F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE1F16A244DD2C800E4264F /* ViewController.swift */; };
@@ -43,6 +47,10 @@
 		15D72AF366A77B8D9721E438 /* Pods_tinderMock_tinderMockUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tinderMock_tinderMockUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AE23B4D58586A5B8EF5FFA0 /* Pods-tinderMockTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tinderMockTests.debug.xcconfig"; path = "Target Support Files/Pods-tinderMockTests/Pods-tinderMockTests.debug.xcconfig"; sourceTree = "<group>"; };
 		54987386F7D004DF42105788 /* Pods_tinderMock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tinderMock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA3CC1D245591240023A120 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		5CA3CC1F245593F60023A120 /* BezierButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierButton.swift; sourceTree = "<group>"; };
+		5CA3CC212455B5C20023A120 /* RateCocktailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateCocktailVC.swift; sourceTree = "<group>"; };
+		5CA3CC232455B6B80023A120 /* RateCocktail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RateCocktail.storyboard; sourceTree = "<group>"; };
 		5CE1F163244DD2C800E4264F /* tinderMock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tinderMock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CE1F166244DD2C800E4264F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CE1F168244DD2C800E4264F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +99,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5CA3CC262455B6FE0023A120 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				5CA3CC232455B6B80023A120 /* RateCocktail.storyboard */,
+				5CE1F171244DD2CB00E4264F /* LaunchScreen.storyboard */,
+				5CE1F16C244DD2C800E4264F /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		5CA3CC272455B72C0023A120 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5CE1F16A244DD2C800E4264F /* ViewController.swift */,
+				5CA3CC212455B5C20023A120 /* RateCocktailVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5CA3CC282455B73B0023A120 /* Parts */ = {
+			isa = PBXGroup;
+			children = (
+				5CA3CC1F245593F60023A120 /* BezierButton.swift */,
+				5CA3CC1D245591240023A120 /* RoundButton.swift */,
+			);
+			path = Parts;
+			sourceTree = "<group>";
+		};
 		5CE1F15A244DD2C800E4264F = {
 			isa = PBXGroup;
 			children = (
@@ -116,13 +152,13 @@
 		5CE1F165244DD2C800E4264F /* tinderMock */ = {
 			isa = PBXGroup;
 			children = (
+				5CE1F174244DD2CB00E4264F /* Info.plist */,
 				5CE1F166244DD2C800E4264F /* AppDelegate.swift */,
 				5CE1F168244DD2C800E4264F /* SceneDelegate.swift */,
-				5CE1F16A244DD2C800E4264F /* ViewController.swift */,
-				5CE1F16C244DD2C800E4264F /* Main.storyboard */,
 				5CE1F16F244DD2CB00E4264F /* Assets.xcassets */,
-				5CE1F171244DD2CB00E4264F /* LaunchScreen.storyboard */,
-				5CE1F174244DD2CB00E4264F /* Info.plist */,
+				5CA3CC282455B73B0023A120 /* Parts */,
+				5CA3CC262455B6FE0023A120 /* Storyboard */,
+				5CA3CC272455B72C0023A120 /* ViewController */,
 			);
 			path = tinderMock;
 			sourceTree = "<group>";
@@ -155,7 +191,6 @@
 				3AE23B4D58586A5B8EF5FFA0 /* Pods-tinderMockTests.debug.xcconfig */,
 				E62DDAC47DCFE35521995B1A /* Pods-tinderMockTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -278,6 +313,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CA3CC242455B6B80023A120 /* RateCocktail.storyboard in Resources */,
 				5CE1F173244DD2CB00E4264F /* LaunchScreen.storyboard in Resources */,
 				5CE1F170244DD2CB00E4264F /* Assets.xcassets in Resources */,
 				5CE1F16E244DD2C800E4264F /* Main.storyboard in Resources */,
@@ -408,6 +444,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CA3CC20245593F60023A120 /* BezierButton.swift in Sources */,
+				5CA3CC1E245591240023A120 /* RoundButton.swift in Sources */,
+				5CA3CC222455B5C20023A120 /* RateCocktailVC.swift in Sources */,
 				5CE1F16B244DD2C800E4264F /* ViewController.swift in Sources */,
 				5CE1F167244DD2C800E4264F /* AppDelegate.swift in Sources */,
 				5CE1F169244DD2C800E4264F /* SceneDelegate.swift in Sources */,
